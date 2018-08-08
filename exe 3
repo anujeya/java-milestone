@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.*;
+
+class Main
+{  
+public static void main(String[] args)
+{
+int tot=70,pass,att;
+att=(70*90/100);
+System.out.println("Number of students who attended the exam are "+att);
+pass=(att*2/3);
+System.out.println("Number of students who cleare the exam are " +pass);
+}
+}
