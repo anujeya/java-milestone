@@ -1,0 +1,15 @@
+import java.util.*;
+import java.lang.*;
+class Main
+{  
+public static void main(String args[])
+{
+float sum=375;
+float man,mat=3,lar=4,san=5;
+float r1=4,r2=5,r3=6;
+man=(sum-(r1+r2+r3))/12;  
+System.out.printf("Salary of A=%f Rs\n",(mat*man)+r1);
+System.out.printf("Salary of B=%f Rs\n",(lar*man)+r2);
+System.out.printf("Salary of C=%f Rs\n",(san*man)+r3);
+}
+}
