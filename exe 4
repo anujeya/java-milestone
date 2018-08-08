@@ -1,0 +1,16 @@
+import java.util.*;
+import java.lang.*;
+
+class Main
+{  
+    public static void main(String args[])
+    {
+        int a,b;
+        a=(38/2);
+        System.out.println(a);
+        b=25-a;
+        System.out.println(b);
+         int c=a*b;
+        System.out.println(c);
+    }
+}
